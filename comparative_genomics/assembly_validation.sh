@@ -1,3 +1,4 @@
+# yexinhai, yexinhai@zju.edu.cn
 #CCS reads
 minimap2 -ax map-hifi -t 112 -o Ajap.ccs.minimap2.sam  Ajap.genome.LG.fa Ajap.ccs.fastq.gz
 samtools view -F4 -bSh -@ 112 -o Ajap.ccs.minimap2.bam Ajap.ccs.minimap2.sam
