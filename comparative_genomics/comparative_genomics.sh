@@ -1,3 +1,4 @@
+# yexinhai, yexinhai@zju.edu.cn
 #Run orthofinder for orthology inference.
 orthofinder -f ./01_data -t 112 -a 10 -M msa -T fasttree
 # Generate a supergene sequence from 1,792 single-copy orthologues.
